@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '3.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
-gem 'rails', '~> 6.1.3', '>= 6.1.6.1'
+gem 'rails', '~> 6.1.7', '>= 6.1.7.3'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.1'
 # Use Puma as the app server
@@ -54,5 +54,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "redis", "~> 4.2"
-gem "cable_ready", "~> 4.5"
-gem "stimulus_reflex", "~> 3.4"
+gem "cable_ready", "~> 4.5", ">= 4.5.0"
+gem "stimulus_reflex", "~> 3.4", ">= 3.4.1"
