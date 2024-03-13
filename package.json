@@ -8,7 +8,7 @@
     "@rails/webpacker": "5.4.3",
     "cable_ready": "^4.5.0",
     "stimulus": "^2.0.0",
-    "stimulus_reflex": "3.4.1",
+    "stimulus_reflex": "3.4.2",
     "turbolinks": "^5.2.0"
   },
   "version": "0.1.0",
